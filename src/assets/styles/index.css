@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app{
+background: whitesmoke;
+background: url("../../../public/images/drop.png");
+background-size: contain;
+
+/* background-repeat: no-repeat;  */
+}

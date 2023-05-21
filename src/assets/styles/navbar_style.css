@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbarbody{
+    background: rgb(19,6,6);
+background: linear-gradient(0deg, rgba(19,6,6,1) 0%, rgba(0,0,0,1) 100%);
+}
