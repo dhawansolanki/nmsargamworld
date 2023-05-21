@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import "./assets/styles/portfolio_style.css"
 import ReactDOM from 'react-dom'
 import ModalVideo from 'react-modal-video'
 const Portfolio = ()=>{
@@ -54,6 +55,11 @@ const Portfolio = ()=>{
     </div>
   </div>
 </div>
+<br/>
+<div class="flex justify-center">
+<button className='viewallbtn'>View All Songs</button>
+</div>
+<br/><br/>
 </div>
     )
 }

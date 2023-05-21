@@ -5,7 +5,7 @@
 #app{
 background: whitesmoke;
 background: url("../../../public/images/drop.png");
-background-size: contain;
+background-size: cover;
 
 /* background-repeat: no-repeat;  */
 }
