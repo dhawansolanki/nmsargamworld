@@ -1,10 +1,6 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "./assets/styles/portfolio_style.css"
-import ReactDOM from 'react-dom'
-import ModalVideo from 'react-modal-video'
 const Portfolio = ()=>{
-    const [isOpen, setOpen] = useState(false)
-    
     return(
 <div>
 <div class="flex flex-wrap">
@@ -57,7 +53,7 @@ const Portfolio = ()=>{
 </div>
 <br/>
 <div class="flex justify-center">
-<button className='viewallbtn'>View All Songs</button>
+<button onClick={(e)=>{window.location.href="./songs"}} className='viewallbtn'>View All Songs</button>
 </div>
 <br/><br/>
 </div>

@@ -10,7 +10,7 @@ const Hero=()=>{
         <h2 class="sm:text-xl text-3xl mb-4 font-medium" style={{'font-family': "'Ultra', serif"}}>Singer | Actor | Advocate</h2>
       <p class="mb-8 leading-relaxed">Nitin Mahyavanshi is a Gujarati Hindi singer-performer. He was born in Silvassa, Dadra and Nagar Haveli. He is an Advocate by Profession.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg getintouchbtn">Explore NM Sargam World</button>
+        <button onClick={(e)=>{window.location.href="./songs"}} class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg getintouchbtn">Explore NM Sargam World</button>
         <button onClick={(e)=>{window.location.href="https://www.youtube.com/@nmsargamworld637/"}} class="ml-4 inline-flex text-white bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg explorebtn">Visit Youtube</button>
       </div>
     </div>

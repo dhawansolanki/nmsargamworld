@@ -1,18 +1,25 @@
-import Footer from "./Footer";
-import Hero from "./Hero";
 import Navbar from "./Navbar";
-import Portfolio from "./Portfolio";
-import Statistics from "./Statistics";
-import "./assets/styles/index.css"
+import Home from "./Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Songs from "./Songs";
+import Footer from "./Footer";
+import Error404 from "./404";
+
 function App() {
   return (
-    <div className="App" id="app">
-      <Navbar/>
-      <Hero/>
-      <Statistics/>
-      <Portfolio/>
-      <Footer/>
-    </div>
+    <>
+
+    <Navbar/>
+    <BrowserRouter>
+    <Routes>
+    <Route index element={<Home />} />
+    <Route path="songs" element={<Songs/> } />
+    <Route path="*" element={<Error404/>} />
+    </Routes>
+    </BrowserRouter>
+    <Footer/>
+    </>
+    
   );
 }
 
